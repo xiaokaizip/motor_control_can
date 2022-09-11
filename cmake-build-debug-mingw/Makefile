@@ -152,6 +152,30 @@ Core/Src/can.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\motor-control-code.elf.dir\build.make CMakeFiles/motor-control-code.elf.dir/Core/Src/can.c.s
 .PHONY : Core/Src/can.c.s
 
+Core/Src/delay.obj: Core/Src/delay.c.obj
+.PHONY : Core/Src/delay.obj
+
+# target to build an object file
+Core/Src/delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\motor-control-code.elf.dir\build.make CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.obj
+.PHONY : Core/Src/delay.c.obj
+
+Core/Src/delay.i: Core/Src/delay.c.i
+.PHONY : Core/Src/delay.i
+
+# target to preprocess a source file
+Core/Src/delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\motor-control-code.elf.dir\build.make CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.i
+.PHONY : Core/Src/delay.c.i
+
+Core/Src/delay.s: Core/Src/delay.c.s
+.PHONY : Core/Src/delay.s
+
+# target to generate assembly for a file
+Core/Src/delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\motor-control-code.elf.dir\build.make CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.s
+.PHONY : Core/Src/delay.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -988,6 +1012,9 @@ help:
 	@echo ... Core/Src/can.obj
 	@echo ... Core/Src/can.i
 	@echo ... Core/Src/can.s
+	@echo ... Core/Src/delay.obj
+	@echo ... Core/Src/delay.i
+	@echo ... Core/Src/delay.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s

@@ -78,9 +78,22 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor-control-code.elf.dir/Core/Src/can.c.s"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rmbuild\motor_can\motor-control-code\Core\Src\can.c -o CMakeFiles\motor-control-code.elf.dir\Core\Src\can.c.s
 
+CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
+CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.obj: ../Core/Src/delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\delay.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\delay.c
+
+CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.i"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rmbuild\motor_can\motor-control-code\Core\Src\delay.c > CMakeFiles\motor-control-code.elf.dir\Core\Src\delay.c.i
+
+CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.s"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rmbuild\motor_can\motor-control-code\Core\Src\delay.c -o CMakeFiles\motor-control-code.elf.dir\Core\Src\delay.c.s
+
 CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\gpio.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\gpio.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -93,7 +106,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\i2c.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\i2c.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.i: cmake_force
@@ -106,7 +119,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.obj: ../Core/Src/key.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\key.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\key.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.i: cmake_force
@@ -119,7 +132,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/main.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/main.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\main.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\main.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/main.c.i: cmake_force
@@ -132,7 +145,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/menu.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/menu.c.obj: ../Core/Src/menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/menu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/menu.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\menu.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\menu.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/menu.c.i: cmake_force
@@ -145,7 +158,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/menu.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/motor.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/motor.c.obj: ../Core/Src/motor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/motor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/motor.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\motor.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\motor.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/motor.c.i: cmake_force
@@ -158,7 +171,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/motor.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/oled.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/oled.c.obj: ../Core/Src/oled.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/oled.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/oled.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\oled.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\oled.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/oled.c.i: cmake_force
@@ -171,7 +184,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/oled.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/oledfont.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/oledfont.c.obj: ../Core/Src/oledfont.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/oledfont.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/oledfont.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\oledfont.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\oledfont.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/oledfont.c.i: cmake_force
@@ -184,7 +197,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/oledfont.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/pid.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/pid.c.obj: ../Core/Src/pid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/pid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/pid.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\pid.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\pid.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/pid.c.i: cmake_force
@@ -197,7 +210,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/pid.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/printf.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/printf.c.obj: ../Core/Src/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/printf.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\printf.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\printf.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/printf.c.i: cmake_force
@@ -210,7 +223,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/printf.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/retarget.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/retarget.c.obj: ../Core/Src/retarget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/retarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/retarget.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\retarget.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\retarget.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/retarget.c.i: cmake_force
@@ -223,7 +236,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/retarget.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -236,7 +249,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_forc
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\stm32f1xx_it.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -249,7 +262,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/syscalls.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\syscalls.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\syscalls.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -262,7 +275,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/sysmem.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\sysmem.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\sysmem.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -275,7 +288,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/sysmem.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src/system_stm32f1xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\system_stm32f1xx.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -288,7 +301,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/tim.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/tim.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\tim.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\tim.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -301,7 +314,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/tim.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/usart.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/motor-control-code.elf.dir/Core/Src/usart.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Src\usart.c.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Src\usart.c
 
 CMakeFiles/motor-control-code.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -314,7 +327,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/motor-control-code.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: ../Core/Startup/startup_stm32f103c8tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/motor-control-code.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object CMakeFiles/motor-control-code.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj -c D:\rmbuild\motor_can\motor-control-code\Core\Startup\startup_stm32f103c8tx.s
 
 CMakeFiles/motor-control-code.elf.dir/Core/Startup/startup_stm32f103c8tx.s.i: cmake_force
@@ -327,7 +340,7 @@ CMakeFiles/motor-control-code.elf.dir/Core/Startup/startup_stm32f103c8tx.s.s: cm
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -340,7 +353,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i: cmake_force
@@ -353,7 +366,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -366,7 +379,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -379,7 +392,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -392,7 +405,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -405,7 +418,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -418,7 +431,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -431,7 +444,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -444,7 +457,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
@@ -457,7 +470,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -470,7 +483,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -483,7 +496,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -496,7 +509,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -509,7 +522,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -522,7 +535,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/motor-control-code.elf.dir/flags.make
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\motor-control-code.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c D:\rmbuild\motor_can\motor-control-code\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
 
 CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -536,6 +549,7 @@ CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx
 # Object files for target motor-control-code.elf
 motor__control__code_elf_OBJECTS = \
 "CMakeFiles/motor-control-code.elf.dir/Core/Src/can.c.obj" \
+"CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.obj" \
 "CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.obj" \
 "CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.obj" \
@@ -576,6 +590,7 @@ motor__control__code_elf_OBJECTS = \
 motor__control__code_elf_EXTERNAL_OBJECTS =
 
 motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/Core/Src/can.c.obj
+motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.obj
 motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.obj
 motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.obj
 motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.obj
@@ -613,7 +628,7 @@ motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_
 motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/build.make
 motor-control-code.elf: CMakeFiles/motor-control-code.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking C executable motor-control-code.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\rmbuild\motor_can\motor-control-code\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking C executable motor-control-code.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\motor-control-code.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/rmbuild/motor_can/motor-control-code/cmake-build-debug-mingw/motor-control-code.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/rmbuild/motor_can/motor-control-code/cmake-build-debug-mingw/motor-control-code.bin"

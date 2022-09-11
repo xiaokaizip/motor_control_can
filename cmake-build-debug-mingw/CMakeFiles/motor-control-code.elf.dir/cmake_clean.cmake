@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/motor-control-code.elf.dir/Core/Src/can.c.obj"
+  "CMakeFiles/motor-control-code.elf.dir/Core/Src/delay.c.obj"
   "CMakeFiles/motor-control-code.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/motor-control-code.elf.dir/Core/Src/i2c.c.obj"
   "CMakeFiles/motor-control-code.elf.dir/Core/Src/key.c.obj"

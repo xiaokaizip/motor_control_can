@@ -10,6 +10,8 @@
 main.h
 ../Core/Inc/main.h
 
+../Core/Inc/delay.h
+
 ../Core/Inc/gpio.h
 main.h
 ../Core/Inc/main.h
@@ -335,4 +337,6 @@ menu.h
 D:/rmbuild/motor_can/motor-control-code/Core/Src/menu.h
 key.h
 D:/rmbuild/motor_can/motor-control-code/Core/Src/key.h
+delay.h
+D:/rmbuild/motor_can/motor-control-code/Core/Src/delay.h
 

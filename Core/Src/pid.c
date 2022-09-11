@@ -1,6 +1,4 @@
-//
-// Created by 58286 on 2022/7/19.
-//
+
 #include "pid.h"
 
 #define ABS(x)        ((x>0)? (x): (-x))      //相当于计算x的结绝对值

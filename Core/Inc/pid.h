@@ -1,6 +1,4 @@
-//
-// Created by 58286 on 2022/7/19.
-//
+
 
 #ifndef MOTOR_TEST_CORE_INC_PID_H_
 #define MOTOR_TEST_CORE_INC_PID_H_

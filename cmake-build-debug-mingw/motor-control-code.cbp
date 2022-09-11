@@ -99,6 +99,9 @@
 		<Unit filename="D:/rmbuild/motor_can/motor-control-code/Core/Inc/can.h">
 			<Option target="motor-control-code.elf"/>
 		</Unit>
+		<Unit filename="D:/rmbuild/motor_can/motor-control-code/Core/Inc/delay.h">
+			<Option target="motor-control-code.elf"/>
+		</Unit>
 		<Unit filename="D:/rmbuild/motor_can/motor-control-code/Core/Inc/gpio.h">
 			<Option target="motor-control-code.elf"/>
 		</Unit>
@@ -145,6 +148,9 @@
 			<Option target="motor-control-code.elf"/>
 		</Unit>
 		<Unit filename="D:/rmbuild/motor_can/motor-control-code/Core/Src/can.c">
+			<Option target="motor-control-code.elf"/>
+		</Unit>
+		<Unit filename="D:/rmbuild/motor_can/motor-control-code/Core/Src/delay.c">
 			<Option target="motor-control-code.elf"/>
 		</Unit>
 		<Unit filename="D:/rmbuild/motor_can/motor-control-code/Core/Src/gpio.c">

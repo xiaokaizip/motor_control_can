@@ -35,6 +35,7 @@
 #include "retarget.h"
 #include "menu.h"
 #include "key.h"
+#include "delay.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -69,27 +70,6 @@ void SystemClock_Config(void);
 #define DECELERATION_RATIO_2006 36
 #define DECELERATION_RATIO_3508 19.2032
 
-static unsigned int delay_us_factor = 0;
-
-void delayus(unsigned int xus) {
-    delay_us_factor = SystemCoreClock / 1000000;
-    unsigned int Ticks, Time_Old, Time_Now, Time_Count = 0;
-    unsigned int Reload = SysTick->LOAD;
-    Ticks = xus * delay_us_factor;
-    Time_Old = SysTick->VAL;
-    while (1) {
-        Time_Now = SysTick->VAL;
-        if (Time_Now != Time_Old) {
-            if (Time_Now < Time_Old)
-                Time_Count += Time_Old - Time_Now;
-            else
-                Time_Count += Reload - Time_Now + Time_Old;
-            Time_Old = Time_Now;
-            if (Time_Count >= Ticks)
-                break;
-        }
-    }
-}
 
 uint16_t times = 0;
 
@@ -208,7 +188,9 @@ int main(void) {
         //set_speed = 10 * DECELERATION_RATIO_3508 * 3;
         set_speed = a * (sin(w * 0.001 * times) + b) * DECELERATION_RATIO_3508 * 40;
         pid_calc(&pid_struct, (float) moto_measure.speed_rpm, set_speed);
-        printf("%f,%d\n", set_speed, moto_measure.speed_rpm);
+        //printf("%f,%d\n", set_speed, moto_measure.speed_rpm);
+        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+        delayus(1000000);
         // OLED_ShowNum(8 * 7, 0, set_speed, 4, 16, 1);
         //delayus(1000);
 
