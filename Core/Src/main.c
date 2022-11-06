@@ -72,10 +72,16 @@ void SystemClock_Config(void);
 
 
 uint16_t times = 0;
+uint16_t times_can_recive = 0;
+uint16_t times_can_send = 0;
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
 
     if (hcan->Instance == CAN1) {
+        if (times_can_recive > 200) {
+            HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
+            times_can_recive = 0;
+        }
         CAN_RxHeaderTypeDef rx_header;
         HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, can_rx_data);
     }
@@ -90,6 +96,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
     pid_calc(&pid_struct, (float) moto_measure.speed_rpm, set_speed);
     set_moto_current((int16_t) pid_struct.pos_out);
     times++;
+    times_can_recive++;
+    times_can_send++;
 }
 
 void can_init(void) {
@@ -144,8 +152,8 @@ int main(void) {
 
     RetargetInit(&huart2);
 
-    OLED_Init();                           //OLED初始
-    OLED_Clear();                         //清屏
+//    OLED_Init();                           //OLED初始
+//    OLED_Clear();                         //清屏
 
     can_init();
     HAL_TIM_Base_Start_IT(&htim1);
@@ -166,8 +174,8 @@ int main(void) {
     bool start_flag = false;
     float dt = 0.002f;
     float t = 0;
-    double a = 1.0;
-    double w = 2;
+    double a = 1;
+    double w = 1.884;
     double b = 2.090 - a;
     double set_speed_temp = 864 * 2;
 
@@ -186,11 +194,10 @@ int main(void) {
 
         // OLED_Clear();
         //set_speed = 10 * DECELERATION_RATIO_3508 * 3;
-        set_speed = a * (sin(w * 0.001 * times) + b) * DECELERATION_RATIO_3508 * 40;
+        set_speed = 90 * a * (sin(w * 0.001 * times) + b) * DECELERATION_RATIO_3508 / 3.1415926;
         pid_calc(&pid_struct, (float) moto_measure.speed_rpm, set_speed);
-        //printf("%f,%d\n", set_speed, moto_measure.speed_rpm);
-        HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_0);
-        delayus(1000000);
+        printf("%f,%d\n", set_speed, moto_measure.speed_rpm);
+
         // OLED_ShowNum(8 * 7, 0, set_speed, 4, 16, 1);
         //delayus(1000);
 

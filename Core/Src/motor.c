@@ -41,4 +41,5 @@ void set_moto_current(int16_t current) {
     uint32_t tx_mailbox;
 
     HAL_CAN_AddTxMessage(&hcan, &can_header, can_tx_data, &tx_mailbox);
+
 }
