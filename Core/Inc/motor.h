@@ -9,11 +9,17 @@
 
 #define CAN_ID 0x201
 
+#define RC (1/(2*3*3.1415926f*10))
+#define SAMPLE_FREQ 1000
+
+#define C1 (1/(1+RC*SAMPLE_FREQ))
+#define C2 (1-C1)
 
 #define FILTER_BUF_LEN 2
 
 typedef struct {
     int16_t speed_rpm;
+    int16_t last_speed_rmp;
     int16_t real_current;
     int16_t given_current;
     uint8_t hall;

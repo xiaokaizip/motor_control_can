@@ -71,7 +71,7 @@ void SystemClock_Config(void);
 #define DECELERATION_RATIO_3508 19.2032
 
 
-uint16_t times = 0;
+uint64_t times = 0;
 uint16_t times_can_recive = 0;
 uint16_t times_can_send = 0;
 
@@ -160,7 +160,7 @@ int main(void) {
     bool key_state = true;
     HAL_UART_Transmit(&huart2, "start\r\n", 7, HAL_MAX_DELAY);
     //位置式pid
-    PID_struct_init(&pid_struct, POSITION_PID, 20000, 20000, 30.0f, 0.025f, 13.0f);
+    PID_struct_init(&pid_struct, POSITION_PID, 20000, 20000, 18.0f, 0.0001f, 13.0f);
     //增量式pid
     //PID_struct_init(&pid_struct, DELTA_PID, 20000, 20000, 10.0f, 0.1f, 10.0f);
 
@@ -174,8 +174,8 @@ int main(void) {
     bool start_flag = false;
     float dt = 0.002f;
     float t = 0;
-    double a = 1;
-    double w = 1.884;
+    double a = 1.0;
+    double w = 1.90;
     double b = 2.090 - a;
     double set_speed_temp = 864 * 2;
 
@@ -195,8 +195,9 @@ int main(void) {
         // OLED_Clear();
         //set_speed = 10 * DECELERATION_RATIO_3508 * 3;
         set_speed = 90 * a * (sin(w * 0.001 * times) + b) * DECELERATION_RATIO_3508 / 3.1415926;
+
         pid_calc(&pid_struct, (float) moto_measure.speed_rpm, set_speed);
-        printf("%f,%d\n", set_speed, moto_measure.speed_rpm);
+        printf("%f,%d, %d\n", set_speed, moto_measure.speed_rpm, moto_measure.real_current);
 
         // OLED_ShowNum(8 * 7, 0, set_speed, 4, 16, 1);
         //delayus(1000);

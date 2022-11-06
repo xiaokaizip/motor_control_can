@@ -17,7 +17,8 @@ int16_t get_moto_measure(moto_measure_t *ptr) {
     ptr->last_angle = ptr->angle;
     ptr->angle = (uint16_t) (can_rx_data[0] << 8 | can_rx_data[1]);
     ptr->real_current = (int16_t) (can_rx_data[2] << 8 | can_rx_data[3]);
-    ptr->speed_rpm = ptr->real_current;    //这里是因为两种电调对应位不一样的信息
+    ptr->speed_rpm = C1 * ptr->real_current + C2 * ptr->last_speed_rmp;    //这里是因为两种电调对应位不一样的信息
+    ptr->last_speed_rmp = ptr->speed_rpm;
     ptr->given_current = (int16_t) (can_rx_data[4] << 8 | can_rx_data[5]) / -5;
     ptr->hall = can_rx_data[6];
     if (ptr->angle - ptr->last_angle > 4096)
