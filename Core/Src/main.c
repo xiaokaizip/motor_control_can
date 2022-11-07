@@ -160,7 +160,7 @@ int main(void) {
     bool key_state = true;
     HAL_UART_Transmit(&huart2, "start\r\n", 7, HAL_MAX_DELAY);
     //位置式pid
-    PID_struct_init(&pid_struct, POSITION_PID, 20000, 20000, 18.0f, 0.0001f, 13.0f);
+    PID_struct_init(&pid_struct, POSITION_PID, 20000, 20000, 18.0f, 0.0002f, 13.0f);
     //增量式pid
     //PID_struct_init(&pid_struct, DELTA_PID, 20000, 20000, 10.0f, 0.1f, 10.0f);
 
@@ -185,7 +185,8 @@ int main(void) {
 
 
     //前期的参数设置
-
+//while循环里的延时会极大的影响到sin函数的周期
+//以及printf()的使用也会影响到周期
     while (1) {
         /* USER CODE END WHILE */
 
@@ -197,7 +198,7 @@ int main(void) {
         set_speed = 90 * a * (sin(w * 0.001 * times) + b) * DECELERATION_RATIO_3508 / 3.1415926;
 
         pid_calc(&pid_struct, (float) moto_measure.speed_rpm, set_speed);
-        printf("%f,%d, %d\n", set_speed, moto_measure.speed_rpm, moto_measure.real_current);
+        printf("%d\n", moto_measure.real_current);
 
         // OLED_ShowNum(8 * 7, 0, set_speed, 4, 16, 1);
         //delayus(1000);
