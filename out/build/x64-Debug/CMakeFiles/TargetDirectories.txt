@@ -1,3 +1,0 @@
-D:/rmbuild/motor_can/motor-control-code/out/build/x64-Debug/CMakeFiles/motor-control-code.elf.dir
-D:/rmbuild/motor_can/motor-control-code/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-D:/rmbuild/motor_can/motor-control-code/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
